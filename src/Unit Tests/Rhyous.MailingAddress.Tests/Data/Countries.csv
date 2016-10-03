@@ -1,0 +1,500 @@
+Country, Expected
+Aruba, ABW
+AW, ABW
+AF, AFG
+Afghanistan, AFG
+Angola, AGO
+AO, AGO
+AI, AIA
+Anguilla, AIA
+Åland Islands, ALA
+AX, ALA
+AL, ALB
+Albania, ALB
+AD, AND
+Andorra, AND
+AE, ARE
+United Arab Emirates, ARE
+AR, ARG
+Argentina, ARG
+AM, ARM
+Armenia, ARM
+American Samoa, ASM
+AS, ASM
+Antarctica, ATA
+AQ, ATA
+French Southern Territories, ATF
+TF, ATF
+AG, ATG
+Antigua and Barbuda, ATG
+AU, AUS
+Australia, AUS
+AT, AUT
+Austria, AUT
+AZ, AZE
+Azerbaijan, AZE
+BI, BDI
+Burundi, BDI
+BE, BEL
+Belgium, BEL
+Benin, BEN
+BJ, BEN
+"Bonaire, Sint Eustatius and Saba", BES
+BQ, BES
+BF, BFA
+Burkina Faso, BFA
+Bangladesh, BGD
+BD, BGD
+BG, BGR
+Bulgaria, BGR
+Bahrain, BHR
+BH, BHR
+Bahamas, BHS
+BS, BHS
+BA, BIH
+Bosnia and Herzegovina, BIH
+BL, BLM
+Saint Barthélemy, BLM
+Belarus, BLR
+BY, BLR
+Belize, BLZ
+BZ, BLZ
+Bermuda, BMU
+BM, BMU
+BO, BOL
+Bolivia (Plurinational State of), BOL
+BR, BRA
+Brazil, BRA
+Barbados, BRB
+BB, BRB
+BN, BRN
+Brunei Darussalam, BRN
+Bhutan, BTN
+BT, BTN
+Bouvet Island, BVT
+BV, BVT
+Botswana, BWA
+BW, BWA
+Central African Republic, CAF
+CF, CAF
+CA, CAN
+Canada, CAN
+CC, CCK
+Cocos (Keeling) Islands, CCK
+CH, CHE
+Switzerland, CHE
+Chile, CHL
+CL, CHL
+China, CHN
+CN, CHN
+Côte d'Ivoire, CIV
+CI, CIV
+Cameroon, CMR
+CM, CMR
+CD, COD
+Congo (Democratic Republic of the), COD
+CG, COG
+Congo, COG
+CK, COK
+Cook Islands, COK
+CO, COL
+Colombia, COL
+Comoros, COM
+KM, COM
+Cabo Verde, CPV
+CV, CPV
+Costa Rica, CRI
+CR, CRI
+CU, CUB
+Cuba, CUB
+Curaçao, CUW
+CW, CUW
+Christmas Island, CXR
+CX, CXR
+Cayman Islands, CYM
+KY, CYM
+CY, CYP
+Cyprus, CYP
+CZ, CZE
+Czechia, CZE
+DE, DEU
+Germany, DEU
+DJ, DJI
+Djibouti, DJI
+DM, DMA
+Dominica, DMA
+Denmark, DNK
+DK, DNK
+DO, DOM
+Dominican Republic, DOM
+Algeria, DZA
+DZ, DZA
+EC, ECU
+Ecuador, ECU
+EG, EGY
+Egypt, EGY
+ER, ERI
+Eritrea, ERI
+EH, ESH
+Western Sahara, ESH
+ES, ESP
+Spain, ESP
+EE, EST
+Estonia, EST
+ET, ETH
+Ethiopia, ETH
+FI, FIN
+Finland, FIN
+Fiji, FJI
+FJ, FJI
+Falkland Islands (Malvinas), FLK
+FK, FLK
+FR, FRA
+France, FRA
+Faroe Islands, FRO
+FO, FRO
+FM, FSM
+Micronesia (Federated States of), FSM
+GA, GAB
+Gabon, GAB
+GB, GBR
+United Kingdom of Great Britain and Northern Ireland, GBR
+GE, GEO
+Georgia, GEO
+GG, GGY
+Guernsey, GGY
+GH, GHA
+Ghana, GHA
+GI, GIB
+Gibraltar, GIB
+GN, GIN
+Guinea, GIN
+GP, GLP
+Guadeloupe, GLP
+Gambia, GMB
+GM, GMB
+Guinea-Bissau, GNB
+GW, GNB
+Equatorial Guinea, GNQ
+GQ, GNQ
+GR, GRC
+Greece, GRC
+GD, GRD
+Grenada, GRD
+GL, GRL
+Greenland, GRL
+GT, GTM
+Guatemala, GTM
+French Guiana, GUF
+GF, GUF
+GU, GUM
+Guam, GUM
+Guyana, GUY
+GY, GUY
+HK, HKG
+Hong Kong, HKG
+Heard Island and McDonald Islands, HMD
+HM, HMD
+HN, HND
+Honduras, HND
+Croatia, HRV
+HR, HRV
+Haiti, HTI
+HT, HTI
+HU, HUN
+Hungary, HUN
+ID, IDN
+Indonesia, IDN
+IM, IMN
+Isle of Man, IMN
+IN, IND
+India, IND
+British Indian Ocean Territory, IOT
+IO, IOT
+IE, IRL
+Ireland, IRL
+IR, IRN
+Iran (Islamic Republic of), IRN
+IQ, IRQ
+Iraq, IRQ
+Iceland, ISL
+IS, ISL
+IL, ISR
+Israel, ISR
+IT, ITA
+Italy, ITA
+Jamaica, JAM
+JM, JAM
+JE, JEY
+Jersey, JEY
+JO, JOR
+Jordan, JOR
+Japan, JPN
+JP, JPN
+Kazakhstan, KAZ
+KZ, KAZ
+KE, KEN
+Kenya, KEN
+KG, KGZ
+Kyrgyzstan, KGZ
+Cambodia, KHM
+KH, KHM
+KI, KIR
+Kiribati, KIR
+KN, KNA
+Saint Kitts and Nevis, KNA
+Korea (Republic of), KOR
+KR, KOR
+Kuwait, KWT
+KW, KWT
+LA, LAO
+Lao People's Democratic Republic, LAO
+LB, LBN
+Lebanon, LBN
+Liberia, LBR
+LR, LBR
+Libya, LBY
+LY, LBY
+LC, LCA
+Saint Lucia, LCA
+LI, LIE
+Liechtenstein, LIE
+LK, LKA
+Sri Lanka, LKA
+Lesotho, LSO
+LS, LSO
+Lithuania, LTU
+LT, LTU
+LU, LUX
+Luxembourg, LUX
+Latvia, LVA
+LV, LVA
+Macao, MAC
+MO, MAC
+MF, MAF
+Saint Martin (French part), MAF
+MA, MAR
+Morocco, MAR
+MC, MCO
+Monaco, MCO
+MD, MDA
+Moldova (Republic of), MDA
+Madagascar, MDG
+MG, MDG
+Maldives, MDV
+MV, MDV
+Mexico, MEX
+MX, MEX
+Marshall Islands, MHL
+MH, MHL
+Macedonia (the former Yugoslav Republic of), MKD
+MK, MKD
+Mali, MLI
+ML, MLI
+Malta, MLT
+MT, MLT
+MM, MMR
+Myanmar, MMR
+ME, MNE
+Montenegro, MNE
+MN, MNG
+Mongolia, MNG
+MP, MNP
+Northern Mariana Islands, MNP
+Mozambique, MOZ
+MZ, MOZ
+Mauritania, MRT
+MR, MRT
+Montserrat, MSR
+MS, MSR
+Martinique, MTQ
+MQ, MTQ
+Mauritius, MUS
+MU, MUS
+Malawi, MWI
+MW, MWI
+Malaysia, MYS
+MY, MYS
+Mayotte, MYT
+YT, MYT
+NA, NAM
+Namibia, NAM
+NC, NCL
+New Caledonia, NCL
+NE, NER
+Niger, NER
+NF, NFK
+Norfolk Island, NFK
+NG, NGA
+Nigeria, NGA
+NI, NIC
+Nicaragua, NIC
+Niue, NIU
+NU, NIU
+Netherlands, NLD
+NL, NLD
+NO, NOR
+Norway, NOR
+Nepal, NPL
+NP, NPL
+Nauru, NRU
+NR, NRU
+New Zealand, NZL
+NZ, NZL
+OM, OMN
+Oman, OMN
+Pakistan, PAK
+PK, PAK
+PA, PAN
+Panama, PAN
+Pitcairn, PCN
+PN, PCN
+PE, PER
+Peru, PER
+PH, PHL
+Philippines, PHL
+Palau, PLW
+PW, PLW
+Papua New Guinea, PNG
+PG, PNG
+PL, POL
+Poland, POL
+PR, PRI
+Puerto Rico, PRI
+Korea (Democratic People's Republic of), PRK
+KP, PRK
+Portugal, PRT
+PT, PRT
+Paraguay, PRY
+PY, PRY
+"Palestine, State of", PSE
+PS, PSE
+French Polynesia, PYF
+PF, PYF
+QA, QAT
+Qatar, QAT
+Réunion, REU
+RE, REU
+RO, ROU
+Romania, ROU
+RU, RUS
+Russian Federation, RUS
+RW, RWA
+Rwanda, RWA
+SA, SAU
+Saudi Arabia, SAU
+SD, SDN
+Sudan, SDN
+Senegal, SEN
+SN, SEN
+SG, SGP
+Singapore, SGP
+GS, SGS
+South Georgia and the South Sandwich Islands, SGS
+"Saint Helena, Ascension and Tristan da Cunha", SHN
+SH, SHN
+SJ, SJM
+Svalbard and Jan Mayen, SJM
+SB, SLB
+Solomon Islands, SLB
+Sierra Leone, SLE
+SL, SLE
+El Salvador, SLV
+SV, SLV
+San Marino, SMR
+SM, SMR
+SO, SOM
+Somalia, SOM
+PM, SPM
+Saint Pierre and Miquelon, SPM
+RS, SRB
+Serbia, SRB
+South Sudan, SSD
+SS, SSD
+Sao Tome and Principe, STP
+ST, STP
+SR, SUR
+Suriname, SUR
+SK, SVK
+Slovakia, SVK
+SI, SVN
+Slovenia, SVN
+SE, SWE
+Sweden, SWE
+Swaziland, SWZ
+SZ, SWZ
+Sint Maarten (Dutch part), SXM
+SX, SXM
+SC, SYC
+Seychelles, SYC
+SY, SYR
+Syrian Arab Republic, SYR
+TC, TCA
+Turks and Caicos Islands, TCA
+Chad, TCD
+TD, TCD
+TG, TGO
+Togo, TGO
+TH, THA
+Thailand, THA
+Tajikistan, TJK
+TJ, TJK
+TK, TKL
+Tokelau, TKL
+TM, TKM
+Turkmenistan, TKM
+Timor-Leste, TLS
+TL, TLS
+TO, TON
+Tonga, TON
+Trinidad and Tobago, TTO
+TT, TTO
+TN, TUN
+Tunisia, TUN
+TR, TUR
+Turkey, TUR
+Tuvalu, TUV
+TV, TUV
+"Taiwan, Province of China", TWN
+TW, TWN
+"Tanzania, United Republic of", TZA
+TZ, TZA
+UG, UGA
+Uganda, UGA
+UA, UKR
+Ukraine, UKR
+UM, UMI
+United States Minor Outlying Islands, UMI
+Uruguay, URY
+UY, URY
+United States of America, USA
+United States, USA
+US, USA
+U.S.A., USA
+U.S, USA
+UZ, UZB
+Uzbekistan, UZB
+Holy See, VAT
+VA, VAT
+Saint Vincent and the Grenadines, VCT
+VC, VCT
+VE, VEN
+Venezuela (Bolivarian Republic of), VEN
+VG, VGB
+Virgin Islands (British), VGB
+VI, VIR
+Virgin Islands (U.S.), VIR
+Viet Nam, VNM
+VN, VNM
+Vanuatu, VUT
+VU, VUT
+Wallis and Futuna, WLF
+WF, WLF
+Samoa, WSM
+WS, WSM
+YE, YEM
+Yemen, YEM
+South Africa, ZAF
+ZA, ZAF
+Zambia, ZMB
+ZM, ZMB

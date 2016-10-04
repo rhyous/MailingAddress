@@ -479,7 +479,7 @@ namespace Rhyous.MailingAddress.Dictionaries
             Add("United States of America", "USA");
             Add("United States", "USA");
             Add("US", "USA");
-            Add("U.S.A.", "USA");
+            Add("U.S.A", "USA");
             Add("U.S", "USA");
             Add("UZ", "UZB");
             Add("Uzbekistan", "UZB");

@@ -2,6 +2,6 @@
 {
     public interface IAddressNormalizer
     {
-        T Normalize<T>(IAddress address) where T : IAddress, new();
+        T Normalize<T>(T address) where T : IAddress, new();
     }
 }

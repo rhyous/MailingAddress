@@ -11,7 +11,7 @@ namespace Rhyous.MailingAddress
             NormalizerCollection = normalizerCollection;
         }
 
-        public T Normalize<T>(IAddress address)
+        public T Normalize<T>(T address)
                 where T : IAddress, new()
         {
             return new T()

@@ -1,15 +1,17 @@
 ﻿using Rhyous.StringLibrary;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Rhyous.MailingAddress.Extensions
 {
     public static class DictionaryExtensions
     {
-        public static string GetValueOrSame(this Dictionary<string, string> dictionary, string key)
+        public static char[] TrimCharacters = ".\"".ToCharArray();
+
+        public static string GetValueOrTrim(this Dictionary<string, string> dictionary, string key)
         {
             string value;
-            if (dictionary.TryGetValue(key.TrimAll(), out value))
+            key = key.TrimAll().Trim(TrimCharacters);
+            if (dictionary.TryGetValue(key, out value))
                 return value;
             return key;
         }

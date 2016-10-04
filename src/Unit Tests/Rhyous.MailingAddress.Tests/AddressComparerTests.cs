@@ -9,7 +9,7 @@ namespace Rhyous.MailingAddress.Tests
         public TestContext TestContext { get; set; }
 
         [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @"Data\Addresses.csv", "Addresses#csv", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @"Data\CompareAddresses.csv", "CompareAddresses#csv", DataAccessMethod.Sequential)]
         public void AddressComparerTest1()
         {
             // Arrange
@@ -41,8 +41,10 @@ namespace Rhyous.MailingAddress.Tests
             var normalizer = new PostalCodeNormalizer();
 
             // Act
+            var result = comparer.Equals(address1, address2);
 
             // Assert
+            Assert.IsTrue(result.OverallMatch);
         }
     }
 }

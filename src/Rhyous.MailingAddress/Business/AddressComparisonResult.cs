@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Rhyous.MailingAddress
 {
-    public class AddressComparisonResult : List<IStringComparison>, IAddressComparisonResult
+    public class AddressComparisonResult : List<IStringComparisonDetails>, IAddressComparisonResult
     {
         public bool AdjustedMatch { get; set; }
 

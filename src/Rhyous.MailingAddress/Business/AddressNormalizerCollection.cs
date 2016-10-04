@@ -43,7 +43,7 @@ namespace Rhyous.MailingAddress
 
         public IStringNormalizer Street
         {
-            get { return _Street ?? (_Street = new StringNormalizer(StreetDictionary)); }
+            get { return _Street ?? (_Street = new WordNormalizer(new StringNormalizer(StreetDictionary))); }
             set { _Street = value; }
         } private IStringNormalizer _Street;
 

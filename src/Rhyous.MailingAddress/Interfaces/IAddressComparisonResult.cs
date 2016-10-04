@@ -2,7 +2,7 @@
 
 namespace Rhyous.MailingAddress
 {
-    public interface IAddressComparisonResult : IList<IStringComparison>
+    public interface IAddressComparisonResult : IList<IStringComparisonDetails>
     {
         bool OverallMatch { get; set; }
         double OverallScore { get; set; }

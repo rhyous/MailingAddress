@@ -14,7 +14,7 @@ namespace Rhyous.MailingAddress
 
         public string Normalize(string value)
         {
-            return dictionary.GetValueOrSame(value);
+            return dictionary.GetValueOrTrim(value);
         }
     }
 }

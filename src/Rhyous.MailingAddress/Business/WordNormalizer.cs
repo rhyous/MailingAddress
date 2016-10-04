@@ -6,7 +6,6 @@ namespace Rhyous.MailingAddress
 {
     public class WordNormalizer : IStringNormalizer
     {
-        public static char[] TrimCharacters = ". ".ToCharArray();
         private IStringNormalizer _Normalizer;
 
         public WordNormalizer(StringNormalizer normalizer)
@@ -22,7 +21,7 @@ namespace Rhyous.MailingAddress
             {
                 if (result.Length > 0)
                     result.Append(" ");
-                result.Append(_Normalizer.Normalize(word.Trim(TrimCharacters)));
+                result.Append(_Normalizer.Normalize(word));
             }
             return result.ToString();
         }

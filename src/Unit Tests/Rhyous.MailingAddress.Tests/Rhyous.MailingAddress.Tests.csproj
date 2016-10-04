@@ -56,6 +56,7 @@
     <Compile Include="AddressComparerTests.cs" />
     <Compile Include="PostalCodeNormalizerTests.cs" />
     <Compile Include="StringNormalizeCountryDictionaryTests.cs" />
+    <Compile Include="AddressNormalizerTests.cs" />
     <Compile Include="WordNormalizerStreetDictionaryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringNormalizerUnitedStatesDictionaryTests.cs" />
@@ -73,6 +74,9 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="Data\Addresses.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\CompareAddresses.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\PostalCodes.csv">

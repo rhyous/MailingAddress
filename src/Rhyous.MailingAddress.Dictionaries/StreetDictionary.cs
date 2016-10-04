@@ -14,6 +14,7 @@ namespace Rhyous.MailingAddress.Dictionaries
             Add("North", "N");
 
             Add("S", "S");
+            Add("So", "S");
             Add("South", "S");
 
             Add("E", "E");

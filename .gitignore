@@ -250,3 +250,12 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+#backup files
+*.bak
+
+#dll files
+*.dll
+
+# App_Packages
+App_Packages/

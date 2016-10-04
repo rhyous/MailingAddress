@@ -53,13 +53,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AddressComparerTests.cs" />
-    <Compile Include="PostalCodeNormalizerTests.cs" />
-    <Compile Include="StringNormalizeCountryDictionaryTests.cs" />
-    <Compile Include="AddressNormalizerTests.cs" />
-    <Compile Include="WordNormalizerStreetDictionaryTests.cs" />
+    <Compile Include="Business\AddressComparerTests.cs" />
+    <Compile Include="Business\PostalCodeNormalizerTests.cs" />
+    <Compile Include="Business\StringNormalizeCountryDictionaryTests.cs" />
+    <Compile Include="Business\AddressNormalizerTests.cs" />
+    <Compile Include="Business\WordNormalizerStreetDictionaryTests.cs" />
+    <Compile Include="Model\AddressDictionariesTests.cs" />
+    <Compile Include="Model\AddressNormalizerCollectionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringNormalizerUnitedStatesDictionaryTests.cs" />
+    <Compile Include="Business\StringNormalizerUnitedStatesDictionaryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Rhyous.MailingAddress.Dictionaries\Rhyous.MailingAddress.Dictionaries.csproj">

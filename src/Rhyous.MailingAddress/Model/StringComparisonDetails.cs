@@ -1,4 +1,4 @@
-﻿namespace Rhyous.MailingAddress.Model
+﻿namespace Rhyous.MailingAddress
 {
     public class StringComparisonDetails : IStringComparisonDetails
     {

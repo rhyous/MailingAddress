@@ -47,7 +47,7 @@
     <Compile Include="Business\AddressComparer.cs" />
     <Compile Include="Business\AddressComparisonResult.cs" />
     <Compile Include="Business\AddressNormalizer.cs" />
-    <Compile Include="Business\AddressNormalizerCollection.cs" />
+    <Compile Include="Model\AddressNormalizerCollection.cs" />
     <Compile Include="Business\PostalCodeNormalizer.cs" />
     <Compile Include="Business\StringComparer.cs" />
     <Compile Include="Business\StringNormalizer.cs" />
@@ -55,13 +55,13 @@
     <Compile Include="Extensions\DictionaryExtensions.cs" />
     <Compile Include="Interfaces\IAddressComparer.cs" />
     <Compile Include="Interfaces\IAddressComparisonResult.cs" />
-    <Compile Include="Interfaces\IAddressNormalizerCollection.cs" />
     <Compile Include="Interfaces\IStringComparer.cs" />
     <Compile Include="Interfaces\IStringNormalizer.cs" />
     <Compile Include="Interfaces\IAddressNormalizer.cs" />
     <Compile Include="Interfaces\IStringComparisonDetails.cs" />
     <Compile Include="Model\Address.cs" />
     <Compile Include="Interfaces\IAddress.cs" />
+    <Compile Include="Model\AddressDictionaries.cs" />
     <Compile Include="Model\StringComparisonDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

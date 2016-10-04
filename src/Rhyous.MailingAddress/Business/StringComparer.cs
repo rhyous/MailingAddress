@@ -1,5 +1,4 @@
-﻿using Rhyous.MailingAddress.Model;
-using System;
+﻿using System;
 
 namespace Rhyous.MailingAddress.Business
 {

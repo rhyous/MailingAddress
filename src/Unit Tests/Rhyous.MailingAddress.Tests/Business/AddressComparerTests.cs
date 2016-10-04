@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhyous.MailingAddress.Dictionaries;
+using System;
 
 namespace Rhyous.MailingAddress.Tests
 {
@@ -31,20 +32,26 @@ namespace Rhyous.MailingAddress.Tests
                 Country = TestContext.DataRow["A2_Country"].ToString(),
                 PostalCode = TestContext.DataRow["A2_PostalCode"].ToString(),
             };
-            var streetDictionary = new StreetDictionary();
-            var cityDictionary = new CityDictionary();
-            var stateDictionary = new StateDictionary();
-            var countryDictionary = new CountryDictionary();
-            var addressNormalizerCollection = new AddressNormalizerCollection(countryDictionary, stateDictionary, cityDictionary, streetDictionary);
+            var addressDictionaries = new AddressDictionaries();
+            addressDictionaries["Street1"] = new StreetDictionary();
+            addressDictionaries["Street2"] = new StreetDictionary();
+            addressDictionaries["city"] = new CityDictionary();
+            addressDictionaries["state"] = new StateDictionary();
+            addressDictionaries["Country"] = new CountryDictionary();
+            var addressNormalizerCollection = new AddressNormalizerCollection(addressDictionaries);
             var addressNormalizer = new AddressNormalizer(addressNormalizerCollection);
             var comparer = new AddressComparer(addressNormalizer);
             var normalizer = new PostalCodeNormalizer();
+
+            var overallMatch = Convert.ToBoolean(TestContext.DataRow["OverallMatch"]);
+            var adjustedMatch = Convert.ToBoolean(TestContext.DataRow["AdjustedMatch"]);
 
             // Act
             var result = comparer.Equals(address1, address2);
 
             // Assert
-            Assert.IsTrue(result.OverallMatch);
-        }
+            Assert.AreEqual(result.OverallMatch, overallMatch);
+            Assert.AreEqual(result.AdjustedMatch, adjustedMatch);
+        }       
     }
 }

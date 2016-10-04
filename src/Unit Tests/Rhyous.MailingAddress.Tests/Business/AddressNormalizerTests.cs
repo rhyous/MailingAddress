@@ -32,11 +32,13 @@ namespace Rhyous.MailingAddress.Tests
                 Country = TestContext.DataRow["E1_Country"].ToString(),
                 PostalCode = TestContext.DataRow["E1_PostalCode"].ToString(),
             };
-            var streetDictionary = new StreetDictionary();
-            var cityDictionary = new CityDictionary();
-            var stateDictionary = new StateDictionary();
-            var countryDictionary = new CountryDictionary();
-            var addressNormalizerCollection = new AddressNormalizerCollection(countryDictionary, stateDictionary, cityDictionary, streetDictionary);
+            var addressDictionaries = new AddressDictionaries();
+            addressDictionaries["Street1"] = new StreetDictionary();
+            addressDictionaries["Street2"] = new StreetDictionary();
+            addressDictionaries["city"] = new CityDictionary();
+            addressDictionaries["state"] = new StateDictionary();
+            addressDictionaries["Country"] = new CountryDictionary();
+            var addressNormalizerCollection = new AddressNormalizerCollection(addressDictionaries);
             var addressNormalizer = new AddressNormalizer(addressNormalizerCollection);
 
             // Act

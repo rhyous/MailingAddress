@@ -1,5 +1,3 @@
-SimpleArgs - Easy coding of command line arguments.
-
 Copyright (c) 2012, Jared Barneck (Rhyous)
 All rights reserved.
  

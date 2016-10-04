@@ -1,0 +1,7 @@
+﻿#Excludes
+\bin\
+\obj\
+\Properties\
+.csproj
+.settings
+packages.config

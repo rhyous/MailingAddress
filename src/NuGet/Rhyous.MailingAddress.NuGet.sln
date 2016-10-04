@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhyous.MailingAddress", "..\Rhyous.MailingAddress\Rhyous.MailingAddress.csproj", "{07AC28D5-0B08-4D0F-AC09-AF1B472D388B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{610D10EF-80CD-4FD7-B527-A78FF3B8067E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhyous.MailingAddress.Tests", "..\Unit Tests\Rhyous.MailingAddress.Tests\Rhyous.MailingAddress.Tests.csproj", "{E8FA442E-3B09-4BF9-8CEE-3774A2FA3E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhyous.MailingAddress.Dictionaries", "..\Rhyous.MailingAddress.Dictionaries\Rhyous.MailingAddress.Dictionaries.csproj", "{54C24408-E69B-4065-8B15-7EDC52BE6ACA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{D6BD2D59-2682-4296-A097-74D152F1867F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhyous.MailingAddress.NuGet", "Rhyous.MailingAddress.NuGet\Rhyous.MailingAddress.NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhyous.MailingAddress.NuGet.Sources", "Rhyous.MailingAddress.NuGet.Sources\Rhyous.MailingAddress.NuGet.Sources.csproj", "{88718AB6-1F27-40E9-8D4E-BAEA96FE8A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07AC28D5-0B08-4D0F-AC09-AF1B472D388B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AC28D5-0B08-4D0F-AC09-AF1B472D388B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AC28D5-0B08-4D0F-AC09-AF1B472D388B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AC28D5-0B08-4D0F-AC09-AF1B472D388B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FA442E-3B09-4BF9-8CEE-3774A2FA3E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FA442E-3B09-4BF9-8CEE-3774A2FA3E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FA442E-3B09-4BF9-8CEE-3774A2FA3E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FA442E-3B09-4BF9-8CEE-3774A2FA3E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C24408-E69B-4065-8B15-7EDC52BE6ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C24408-E69B-4065-8B15-7EDC52BE6ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C24408-E69B-4065-8B15-7EDC52BE6ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C24408-E69B-4065-8B15-7EDC52BE6ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88718AB6-1F27-40E9-8D4E-BAEA96FE8A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88718AB6-1F27-40E9-8D4E-BAEA96FE8A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88718AB6-1F27-40E9-8D4E-BAEA96FE8A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88718AB6-1F27-40E9-8D4E-BAEA96FE8A05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8FA442E-3B09-4BF9-8CEE-3774A2FA3E6A} = {610D10EF-80CD-4FD7-B527-A78FF3B8067E}
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {D6BD2D59-2682-4296-A097-74D152F1867F}
+		{88718AB6-1F27-40E9-8D4E-BAEA96FE8A05} = {D6BD2D59-2682-4296-A097-74D152F1867F}
+	EndGlobalSection
+EndGlobal
